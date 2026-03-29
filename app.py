@@ -82,9 +82,6 @@ if st.button("Generate schedule"):
     if schedule:
         st.write("### Daily Schedule")
         st.table([item.to_row() for item in schedule])
-        with st.expander("Why these tasks were chosen", expanded=True):
-            for note in notes:
-                st.write(f"- {note}")
     else:
         st.warning("No schedule could be created with the current tasks and availability.")
 
