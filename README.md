@@ -3,6 +3,10 @@
 PawPal+ is a pet care planning assistant that turns owner and pet care tasks into a daily schedule.
 This implementation includes a modular scheduling backend, a Streamlit UI, a CLI demo, and automated pytest coverage.
 
+## 📸 Demo
+
+<a href="PawPal.png" target="_blank"><img src="PawPal.png" title="PawPal App" width="800" alt="PawPal App" /></a>
+
 ## Architecture
 
 The system is organized around three domain models:
